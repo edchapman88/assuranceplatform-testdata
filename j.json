@@ -1,0 +1,53 @@
+{
+  
+  "type":"AssuranceCase",
+  "name":"test",
+  "description":"test",
+  "created_date":"2024-01-25T18:15:03.501325Z",
+  "lock_uuid":null,
+  "goals":[
+    {
+      
+      "type":"TopLevelNormativeGoal",
+      "name":"Goal",
+      "short_description":"Short description",
+      "long_description":"Long description",
+      "keywords":"Keywords (comma-separated)",
+      "assurance_case_id":16,
+      "context":[
+        {
+          
+          "type":"Context",
+          "name":"Context",
+          "short_description":"Short description",
+          "long_description":"Long description",
+          "created_date":"2024-01-25T18:15:03.526995Z",
+          "goal_id":16
+        }
+      ],
+      "property_claims":[
+        {
+          
+          "type":"PropertyClaim",
+          "name":"Property claim",
+          "short_description":"Short description",
+          "long_description":"Long description",
+          "goal_id":16,
+          "property_claim_id":null,
+          "level":1,
+          "claim_type":"Project claim",
+          "property_claims":[],
+          "evidence":[],
+          "strategy_id":null
+        }
+      ],
+      "strategies":[]
+    }
+  ],
+  "owner":1,
+  "edit_groups":[],
+  "view_groups":[],
+  "color_profile":"default",
+  "comments":[],
+  "permissions":"manage"
+}
